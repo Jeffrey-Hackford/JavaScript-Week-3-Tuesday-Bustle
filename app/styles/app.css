@@ -1,0 +1,23 @@
+body {
+
+}
+
+#line {
+  border-left: 1px solid;
+}
+
+.article {
+  max-width: 33%;
+  margin-top: 60px;
+  border: 2px solid;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-height: 33%;
+  background-color: lightgray;
+  padding-top: 15px;
+}
+
+img {
+  max-width: 100%;
+  min-width: 100%;
+}

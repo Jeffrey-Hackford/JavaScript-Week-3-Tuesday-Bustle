@@ -1,0 +1,14 @@
+{ "articles": [{
+    "headline": "WORLD STOPS TURNING",
+    "photo": "http://www.volusia.com/wp-content/uploads/2013/07/news.jpg",
+    "author": "Guy, This"
+  }, {
+    "headline": "News Thing!!!",
+    "photo": "http://www.alanat.com/wp-content/uploads/2015/08/BreakingNews.jpg",
+    "author": "Condo Guy"
+  }, {
+    "headline": "Violet Beauregarde",
+    "photo": "http://az616578.vo.msecnd.net/files/2015/11/09/635826355130420629-233930114_ron-burgandy-breaking-news.png",
+    "author": "News Person"
+  }]
+}

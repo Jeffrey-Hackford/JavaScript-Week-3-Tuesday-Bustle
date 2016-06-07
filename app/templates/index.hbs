@@ -1,0 +1,36 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand">Bustle Clone</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a>{{#link-to 'index'}}News{{/link-to}}</a></li>
+        <li><a>{{#link-to 'index'}}Entertainment{{/link-to}}</a></li>
+        <li><a>{{#link-to 'index'}}Fashion & Beauty{{/link-to}}</a></li>
+        <li><a>{{#link-to 'index'}}Lifestyle{{/link-to}}</a></li>
+        <li><a>{{#link-to 'index'}}Books{{/link-to}}</a></li>
+        <li><a>{{#link-to 'index'}}Explore{{/link-to}}</a></li>
+        <li id="line"><a>{{#link-to 'index'}}About{{/link-to}}</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+<div class="container">
+  {{#each model as |article|}}
+  <div class=" article">
+    <div>
+      <p><img src={{article.photo}} alt={{article.headline}}></p>
+      <h1>{{article.headline}}</h1>
+      <hr>
+      <h4>{{article.author}}</h4>
+    </div>
+  </div>
+{{/each}}
+</div>
